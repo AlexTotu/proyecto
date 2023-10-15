@@ -1,0 +1,12 @@
+.post-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-body > p {
+    margin: 0 0 12px;
+}
+
+.post-body > img {
+    width: 100%;
+}

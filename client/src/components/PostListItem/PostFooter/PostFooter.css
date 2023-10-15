@@ -1,0 +1,47 @@
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.post-footer > div {
+    display: flex;
+    align-items: center;
+}
+
+.post-footer .action-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    margin-right: 24px;
+}
+
+.post-footer .action-item svg {
+    height: 24px;
+    width: 24px;
+    flex-basis: 24px;
+    margin-right: 8px;
+    transition: all 0.5s ease-out;
+    transform: translateY(0px);
+}
+
+
+.post-footer .action-item:not(.action-item-dislike):hover svg {
+    rotate: -25deg;
+}
+
+.post-footer .action-item:not(.action-item-dislike):active svg {
+    rotate: 25deg;
+}
+
+.post-footer .action-item-dislike:hover svg {
+    transform: translateY(5px)
+}
+
+.post-footer .action-item.active {
+    color: var(--purple-color);
+}
+

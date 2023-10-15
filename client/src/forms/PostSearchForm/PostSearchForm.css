@@ -1,0 +1,29 @@
+.search-form {
+    flex-direction: row;
+    gap: 0;
+    height: 40px;
+}
+
+
+.search-form > input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    appearance: none;
+    border: 2px solid transparent;
+    margin-right: 8px;
+    font-size: 16px;
+    transition: all 0.2s ease-out;
+}
+
+
+.search-form > input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.search-form > button svg {
+    width: 16px;
+    height: 16px;
+    flex-basis: 16px;
+    margin-right: 4px;
+}
